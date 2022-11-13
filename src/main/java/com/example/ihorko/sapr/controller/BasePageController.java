@@ -9,7 +9,7 @@ public class BasePageController {
 
     @GetMapping("/arrays")
     public String arrayController(Model model) {
-        String[] continents = {
+        String[] continents = {"testCOm",
                 "Africa", "Antarctica", "Asia", "Australia",
                 "Europe", "North America", "Sourth America"
         };
